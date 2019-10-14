@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "154189401318",
+    "firebase_url": "https://restorenttablebookingsystem.firebaseio.com",
+    "project_id": "restorenttablebookingsystem",
+    "storage_bucket": "restorenttablebookingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154189401318:android:1bbcf666979d0148",
+        "android_client_info": {
+          "package_name": "com.example.arun.restorenttablebookingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154189401318-2ec190ua7ffds7pj4o9qgn7jql4nlgsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arun.restorenttablebookingsystem",
+            "certificate_hash": "a034b314c6bfe1e6bad1311d3d698e4cefaaa5a2"
+          }
+        },
+        {
+          "client_id": "154189401318-4100mrsmn3q6ckdpn8dshq37kpe3ih1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRqmgVR3d86131hM2ClDlCpATpy0U1I2o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154189401318-4100mrsmn3q6ckdpn8dshq37kpe3ih1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

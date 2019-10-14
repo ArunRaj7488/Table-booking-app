@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Login"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Please Enter Name And Password"
+            android:textColor="#fff"
+            />
+
+        <EditText
+        android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card_item"
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" Enter Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:padding="10dp"
+            android:background="@drawable/card_item"
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ef7545"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:text="Clik Here" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:text="Login new User"
+
+            />
+
+    </LinearLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/main1" />-->
+</RelativeLayout>

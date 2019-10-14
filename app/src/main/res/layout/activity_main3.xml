@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7bc658"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="172dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button6"
+        android:text="Activity"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginStart="35dp"
+        android:background="#df4b06"
+        android:text="Menu" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button6"
+        android:layout_marginEnd="21dp"
+        android:background="#df4b06"
+
+        android:text="Booking" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="401dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        app:srcCompat="@drawable/ar" />
+
+    <Button
+        android:id="@+id/mProfileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button6"
+        android:backgroundTint="@color/orange"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:text="Profile" />
+
+
+</RelativeLayout>

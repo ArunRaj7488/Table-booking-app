@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FOOD LOVERS:
+         Aapki Table Aapka Khana</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <array name="genres">
+        <item>Table No-1</item>
+        <item>Table No-2</item>
+        <item>Table No-3</item>
+        <item>Table No-4</item>
+        <item>Table No-5</item>
+        <item>Table No-6</item>
+
+        <item>Table No-7</item>
+        <item>Table No-8</item>
+        <item>Table No-9</item>
+
+        <item>Table No-10</item>
+        <item>Table No-11</item>
+        <item>Table No-12</item>
+
+        <item>Table No-13</item>
+        <item>Table No-14</item>
+        <item>Table No-15</item>
+
+    </array>
+</resources>
